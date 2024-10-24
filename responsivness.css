@@ -1,0 +1,292 @@
+
+/* responsivnesss */
+
+/* common screens (iphone 7-8 samsung s8 */
+@media only screen and (min-width: 35px) and (max-width: 667px){
+    html , body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /* back to top */
+    .back-to-top{
+        right: 5%;
+    }
+    .back-to-top p{
+        display: none;
+    }
+    .back-to-top i{
+        font-size: 1rem;
+    }
+    /* main page */
+    
+    #main_page h1, .credits h1{
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+
+    }
+    #menu_button{
+        display: none;
+    }
+    nav .fa-caret-down{
+        display: none;
+    }
+    nav .fa-bars{
+        display: flex;
+    }
+    .false_l{
+        font-size: 35px;
+        padding: 0;
+    }
+    .last_i{
+        padding: 0;
+    }
+    #main_page p{
+        font-size: 12px;
+        padding: 0 20px;   
+        width: 100%;
+        text-wrap: wrap;
+        text-align: center;     
+    }
+    #main_page h1 span:nth-child(10){
+        margin: 0;
+    }
+    .scroll_to_exploer_container{
+        position: absolute;
+        bottom: 4%;
+        left: 40%;
+    }
+    .scroll_to_exploer_container  h6{
+        font-weight: 200;
+    }
+    .scroll_to_exploer_container .fa-computer-mouse{
+        display: none;
+    }
+    /* skills page */
+    .autoBlur{
+        font-size: 1.7rem;
+        text-wrap: nowrap;
+        padding: 0 0;
+    }
+    .creative_journey{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    /* carousel */
+    .intro-phone{
+        color: rgb(255, 255, 255) !important;
+        font-size: 0.3rem;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content:flex-start;
+        text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.1),  /* Small glow */
+        0 0 10px rgba(255, 255, 255, 0.2), /* Medium glow */
+        0 0 15px rgba(255, 255, 255, 0.4), /* Larger glow */
+        0 0 20px rgba(255, 255, 255, 0.4), /* Even larger glow */
+        0 0 30px rgba(255, 255, 255, 0.4), /* Extra large glow */
+        0 0 40px rgba(255, 255, 255, 0.3); /* Soft outer glow */
+        background-color: rgba(19, 4, 85, 0.7);  /* 'aliceblue' with 50% opacity */
+    }
+    .intro-phone .title , .intro-phone .seeMore{
+        color: rgb(255, 255, 255) !important;
+    }
+    .intro-phone .title{
+        font-size: 2rem !important;
+    }
+    .ethereal-intro{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 10px;
+        background-color: rgba(19, 4, 85, 0.7) !important;  /* 'aliceblue' with 50% opacity */
+    }
+    .ethereal-title , .cosmic-view-title{
+        color: black !important;
+        padding: 0;
+        margin: 0;
+        line-height: 35px;
+        padding-bottom: 30px;
+        font-size: 2rem !important;
+
+    }
+    .ethereal-topic{
+        padding-top: 20px;
+        font-size: 1.5rem !important;
+    }
+    .ethereal-seeMore{
+        color: black !important;
+    }
+    .intro-pc{
+        display: none;
+    }
+    .screen{
+        width: 240px;
+        top: 40%;
+        right: 8.5%;
+    }
+    .arrows{
+        display: none;
+    }
+    
+    .carousel .list .item{
+        left: -10%;
+    }
+    .carousel .item .detail{
+        width: 90vw !important;
+        height: 50vh !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: space-around !important;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        padding-bottom: 50px;
+        margin-left: 10%;
+    }
+    .carousel .item .detail .des{
+        width: 90%;
+        font-size: 0.7rem;
+    }
+    .ethereal-detail-title{
+        line-height: 50px;
+        padding-left: 10px;
+    }
+    .specifications{
+        display: none;
+    }
+    .view_project{
+        text-align: center !important;
+    }
+    #back{
+        display: none;
+    }
+    .screen-content{
+        width: 100%;
+        z-index: 1000 !important;
+    }
+    
+    /* contact page */
+    .contact_page{
+        display: flex;
+        flex-direction: column !important;
+        margin-top: -50px !important;
+
+    }
+    .contact_div{
+        padding-top: 40px;
+    }
+    /* credits */
+
+    .credits{
+        height: 20vh !important;
+        padding: 0;
+    }
+    .credits p{
+        margin-top: 0;
+        opacity: 1 !important;
+    }
+    .credits h1{
+        width: 100%;
+        text-align: center;
+        padding-right: 25px;
+    }
+    /* menu section */
+    .menu_container h1 .link-title1{
+        font-size: 30px !important;
+        letter-spacing: 1px;
+    }
+    .menu_container h1 .link-title2{
+        font-size: 30px;
+        letter-spacing:  1px;
+    }
+    .menu_container{
+        text-align: center;
+        width: 100%;
+    }
+    #menu_section{
+        opacity: 0.9 !important;
+    }
+    /* about me page */
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+    }
+    .left-side-about-me img{
+        margin-top: 30px !important;
+        width: 220px;
+    }
+    .left-side-about-me::after {
+        margin-left: 0;
+        height: 100px; 
+    }
+    .right-side-about-me{
+        width: 90%;
+        margin-top: -110px;
+        z-index: 100;
+    }
+    .about-me-name{
+        font-size: 1.5rem;
+    }
+    .the-journey-h1{
+        font-size: 1rem;
+    }
+    .right-side-about-me p{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .back-to-main{
+        width: 10%;
+    }
+    .back-to-main p{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px){
+    .carousel .list .item{
+        width: 90%;
+    }
+    .carousel .list .detail .specifications{
+        overflow: auto;
+    }
+    .carousel .list .item img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    /* mobile */
+    .carousel .list .item{
+        width: 100%;
+        font-size: 10px;
+    }
+    .carousel{
+        height: 600px;
+    }
+    .carousel .list{
+        height: 100%;
+    }
+    .carousel .list .item .intro{
+        width: 50%;
+    }
+    .carousel .list .item img{
+        width: 40%;
+    }
+    .glowing-btn{
+      font-size: 1em;
+    }
+}
